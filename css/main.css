@@ -14,12 +14,12 @@ html {
 .img-flex {
   display: block;
   width: 100%;
-  position: relative;
   margin: 0;
   overflow: hidden;
 }
 
 .head-text {
+  position: relative;
   background-color: rgba(0, 0, 0, .5);
   font-weight: 700;
   font-size: 4rem;
@@ -29,6 +29,7 @@ html {
 }
 
 .body-text {
+  position: relative;
   font-weight: 400;
   font-style: italic;
   font-size: 2rem;
