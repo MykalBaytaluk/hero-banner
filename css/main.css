@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.banner {
+  max-height: 500px;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+
+.head-text {
+  background-color: rgba(0, 0, 0, .5);
+  font-weight: 700;
+  font-size: 4rem;
+  color: #fff;
+  max-width: 50em;
+  margin: 0;
+}
+
+.body-text {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2rem;
+  max-width: 50em;
+}
