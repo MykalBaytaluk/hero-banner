@@ -29,9 +29,12 @@ body {
   width: 100%;
   max-width: 50em;
   transform: translateX(-50%);
+  padding-left: 1.5rem;
 }
 
 .head-text {
+  display: inline;
+  line-height: 1.4em;
   background-color: rgba(0, 0, 0, .5);
   font-weight: bold;
   font-size: 4rem;
